@@ -11,6 +11,6 @@ To compile the mkbootimg yourself, place mkbootimg.c in <android-src-root>/syste
     
     
     
-To compile a boot.img using this, run this(adjust it to fit your needs):
+To compile a boot.img, run this(adjust it to fit your needs):
 
     mkbootimg --kernel zImage --ramdisk initramfs.cpio.gz --base 0x80600000 --cmdline 'console=ttyHSL0,115200,n8 androidboot.hardware=zaracl user_debug=31' -o new_boot.img
