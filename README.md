@@ -1,6 +1,6 @@
 Modified mkbootimg for for HTC zaracl. Adjusted the ramdisk_offset to work with the zaracl.
 
-To compile the mkbootimg yourself, place mkbootimg.c in <android-src-root>/system/core/mkbootimg/ and run:
+To compile the mkbootimg yourself, place mkbootimg.c in android-src/system/core/mkbootimg/ and run:
 
     cd /path/to/android-src
     cd system/core/libmincrypt/
